@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3A1D6F662EE895C400A2E836 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D6F642EE895C400A2E836 /* User+CoreDataClass.swift */; };
+		3A1D6F672EE895C400A2E836 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D6F652EE895C400A2E836 /* User+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3A1D6F512EE8955000A2E836 /* LoginScreen-CoreData-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoginScreen-CoreData-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1D6F642EE895C400A2E836 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3A1D6F652EE895C400A2E836 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		3A1D6F482EE8955000A2E836 = {
 			isa = PBXGroup;
 			children = (
+				3A1D6F642EE895C400A2E836 /* User+CoreDataClass.swift */,
+				3A1D6F652EE895C400A2E836 /* User+CoreDataProperties.swift */,
 				3A1D6F532EE8955000A2E836 /* LoginScreen-CoreData-SwiftUI */,
 				3A1D6F522EE8955000A2E836 /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1D6F662EE895C400A2E836 /* User+CoreDataClass.swift in Sources */,
+				3A1D6F672EE895C400A2E836 /* User+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
